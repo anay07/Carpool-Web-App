@@ -1,0 +1,180 @@
+@-webkit-keyframes mymove {
+    from {background-color: #F8F8F8 ;
+          color: #101010 ;
+            }
+    to {background-color: #202020  ;
+         color: #E8E8E8 ;
+         }
+}
+
+@keyframes mymove {
+    from {background-color: #F8F8F8 ;
+          color: #101010 ;
+          }
+    to {background-color: #202020  ;
+         color: #E8E8E8 ;
+         }
+}
+
+#header {
+    background-color:#C0C0C0  ;
+    color:white;
+    text-align:center;
+    font-family:"ALGERIAN";
+    font-size: 200%;
+    height:100px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes navdimage {
+    25%   {background-image: url('http://www.tnp.sg/sites/default/files/styles/rl780/public/articles/2016/02/28/np_20160228_carpool_icon_11818831.jpg?itok=Xh4eGYIm'); background-size: 100% 100%;}
+    50%  {background-image: url('http://upload.wikimedia.org/wikipedia/commons/6/62/%22Pool_It%22_Sign_North_of_Vancouver,_Washington,_Was_a_Reminder_That_the_Gasoline_Shortage_Was_Not_over_in_March,_1974_and_Sharing_Rides_Was_a_Good_Idea_03-1974.jpg');background-size: 100% 100%;}
+    75%  {background-image: url('http://umbcbreakingground.files.wordpress.com/2014/02/carpooling-wordle.jpg'); background-size: 100% 100%;}
+    100% {background-image: url('http://upload.wikimedia.org/wikipedia/commons/b/b8/Ride_with_hitler.jpg'); background-size: 100% 100%;}
+}
+
+@keyframes navdimage {
+    0%   {background-image: url('https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/cswAAOSwQmZajS-P/$_72.JPG'); background-size: 100% 100%;}
+    30%  {background-image: url('http://upload.wikimedia.org/wikipedia/commons/6/62/%22Pool_It%22_Sign_North_of_Vancouver,_Washington,_Was_a_Reminder_That_the_Gasoline_Shortage_Was_Not_over_in_March,_1974_and_Sharing_Rides_Was_a_Good_Idea_03-1974.jpg');background-size: 100% 100%;}
+    60%  {background-image: url('http://umbcbreakingground.files.wordpress.com/2014/02/carpooling-wordle.jpg'); background-size: 100% 100%;}
+    100% {background-image: url('http://upload.wikimedia.org/wikipedia/commons/b/b8/Ride_with_hitler.jpg'); background-size: 100% 100%;}
+}
+h1{margin-top:0px}
+
+#navd 
+{
+    width:21%;
+    height:500px;
+    background-color:#D8D8D8  ;
+    text-align:center;
+    float:left;
+    max-width:100%;
+    max-height:100%;
+    border-radius: 5px;
+    box-shadow: -8px 8px 5px #380000 ;
+    margin: .5%;
+    -webkit-animation: navdimage 30s infinite; /* Chrome, Safari, Opera */
+    animation: navdimage 30s infinite;
+    
+    }
+
+#nav {
+    line-height:30px;
+    background-color:#A0A0A0 ;
+    height:100px;
+    width:21%;
+    float:left;
+    border-radius: 7px;
+    box-shadow: -8px 8px 5px #380000 ;
+    margin: .5%;
+    max-width:100%; 
+    max-height:100%;
+    position:relative;	      
+}
+
+#nav img {
+  position:absolute;
+  height:100px;
+   width:100%;
+  border-radius: 7px;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#nav img.top:hover {
+  opacity:0;
+}
+
+
+#sectionhead {
+    width:57%;
+    height:100px;
+    background-color:#E0E0E0 ;
+    float:left;	
+    text-align:center;
+    color:#200000 ;
+    font-size:180%;
+    margin: .5%;
+    text-shadow: 5px 5px 5px black;
+}
+
+#optionhead {
+    height:100px;
+    width:18%;
+    background-color:#4C0000;	
+   text-align:center;
+    float:left;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px #380000 ;
+    margin: .5%;
+    margin-left: 1.5%;
+}
+
+
+
+#options {
+    background: -webkit-linear-gradient(left, black  , white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, black  , white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, black  , white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, black  , white); /* Standard syntax */
+    color:white;
+    width:18%;
+    height:500px;
+    text-align:center;
+    float:left;	
+    border-radius: 5px;
+    box-shadow: 9px 9px 5px #380000 ;
+    margin: .5%; 	 
+    margin-left: 1.5%;
+}
+ul{
+        padding: 0;
+        list-style: none;
+    }
+    ul li{
+        width: 100%;
+        text-align: center;
+        font-size: 110%;
+        align:center;
+        font-weight: bold;       
+    }
+    ul li a{
+        display: block;
+        padding: 5px 10px;
+        color: white;
+        font: 90px;
+        background: black;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #200000 ;
+        background: #939393;
+        font-size: 130%;
+    }
+    ul li ul{
+        display: none;
+    }
+    ul li:hover ul{
+      display: block; /* display the dropdown */
+    }
+
+#section
+{
+width :57%;
+background-color:#E0E0E0;
+height :500px;
+border-radius: 5px;
+font-family : "handwriting";
+font-size: 26px;
+float:left;
+margin:0.5%;
+text-align:center;
+color: #663300;
+font-weight: 900;
+}
+
+
